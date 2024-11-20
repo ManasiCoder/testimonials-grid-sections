@@ -1,0 +1,29 @@
+div.user-identification {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  img {
+    border-radius: 50%;
+  }
+
+  div.user-verification {
+    display: grid;
+    gap: .4rem;
+
+    span {
+      display: block;
+    }
+  
+    span.user-name {
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+
+    span.verified-graduate-text {
+      font-size: 1.2rem;
+      opacity: 50%;
+    }
+  }
+}

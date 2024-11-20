@@ -1,0 +1,39 @@
+.card {
+  max-width: 340px;
+  padding: 2.8rem;
+  display: grid;
+  gap: 1.6rem;
+  border-radius: 0.6rem;
+
+  h2.user-title-comment {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  p.user-comment {
+    font-size: 1.4rem;
+    opacity: 70%;
+  }
+}
+
+.daniel {
+  background-color: var(--moderate-violet);
+}
+
+.jonathan {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.jeanette {
+  color: var(--very-dark-grayish-blue);
+  background-color: var(--white);
+}
+
+.patrick {
+  background-color: var(--very-dark-blackish-blue);
+}
+
+.kira {
+  color: var(--very-dark-grayish-blue);
+  background-color: var(--white);
+}
