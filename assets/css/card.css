@@ -16,24 +16,34 @@
   }
 }
 
-.daniel {
+div.daniel {
   background-color: var(--moderate-violet);
 }
 
-.jonathan {
+div.jonathan {
   background-color: var(--very-dark-grayish-blue);
 }
 
-.jeanette {
-  color: var(--very-dark-grayish-blue);
+div.jeanette {
   background-color: var(--white);
 }
 
-.patrick {
+div.patrick {
   background-color: var(--very-dark-blackish-blue);
 }
 
-.kira {
-  color: var(--very-dark-grayish-blue);
+div.kira {
   background-color: var(--white);
+}
+
+div.jeanette,
+div.kira {
+  color: var(--very-dark-grayish-blue);
+
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    max-width: 100%;
+  }
 }
