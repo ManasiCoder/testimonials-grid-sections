@@ -4,3 +4,5 @@
 /* Files imports */
 @import url("./variables.css");
 @import url("./reset.css");
+@import url("./container.css");
+@import url("./card.css");
