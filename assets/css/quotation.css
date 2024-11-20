@@ -1,0 +1,31 @@
+div.daniel {
+  position: relative;
+
+  .user-identification {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    position: relative;
+    z-index: 1;
+  }
+
+  img.quotation {
+    position: absolute;
+    width: 140px;
+    top: 0;
+    right: 2rem;
+    z-index: 0;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  div.daniel {  
+    img.quotation {
+      right: 6rem;
+    }
+  }
+  
+}

@@ -18,6 +18,10 @@
 
 div.daniel {
   background-color: var(--moderate-violet);
+
+  img {
+    border: 3px solid hsl(263, 33%, 64%);
+  }
 }
 
 div.jonathan {
@@ -30,6 +34,10 @@ div.jeanette {
 
 div.patrick {
   background-color: var(--very-dark-blackish-blue);
+
+  img {
+    border: 3px solid var(--moderate-violet);
+  }
 }
 
 div.kira {
@@ -45,5 +53,14 @@ div.kira {
 @media screen and (min-width: 1280px) {
   .card {
     max-width: 100%;
+    padding: 2.8rem 3.4rem;
+    
+    h2.user-title-comment {
+      font-size: 2.2rem;
+    }
+  
+    p.user-comment {
+      font-size: 1.4rem;
+    }
   }
 }

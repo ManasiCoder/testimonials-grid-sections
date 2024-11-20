@@ -1,6 +1,8 @@
 div.user-identification {
   width: 100%;
-  display: flex;
+  max-height: 72.3px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
   align-items: center;
   gap: 1.6rem;
 
